@@ -1,9 +1,9 @@
 # KiCad Templates
 
 > [!NOTE]
->	This is a fork of the original KiCad Templates repository to provide updated templates for KiCad 9.0 and later versions.
+>	This is a fork of the original [KiCad Templates repository](https://gitlab.com/kicad/libraries/kicad-templates) to provide updated templates for KiCad 9.0 and later versions.
 > This fork includes templates designed for specific manufacturers, usecases and inmproved aesthetics.
-> It is personally maintained and developed by [amar-jay](https://github.com/amar-jay). 
+> It is personally maintained by [amar-jay](https://github.com/amar-jay). 
 
 This repository contains the official KiCad project and worksheet templates.
 
