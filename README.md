@@ -1,7 +1,7 @@
 # KiCad Templates
 
 > [!NOTE]
->	This is a fork of the original KiCad Templates repository to provide updated templates for KiCad 7 and later versions.
+>	This is a fork of the original KiCad Templates repository to provide updated templates for KiCad 9.0 and later versions.
 > This fork includes templates designed for specific manufacturers, usecases and inmproved aesthetics.
 > It is personally maintained and developed by [amar-jay](https://github.com/amar-jay). 
 
