@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ESD7104MUTAG
+#/224665/1792654/2.50/10/2/TVS Diode (Uni-directional)
+DEF ESD7104MUTAG D 0 30 Y Y 1 F N
+F0 "D" 1050 300 50 H V L CNN
+F1 "ESD7104MUTAG" 1050 200 50 H V L CNN
+F2 "ESD8104MUTAG" 1050 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/ESD7104-D.PDF" 1050 0 50 H I L CNN
+F4 "SZESD7104MTWTAG Wettable Flank Package; Low ESD Clamping Voltage; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant; Low Capacitance (0.3 pF Typical, I/O to GND); IEC6100042 (ESD): Level 4" 1050 -100 50 H I L CNN "Description"
+F5 "0.55" 1050 -200 50 H I L CNN "Height"
+F6 "onsemi" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ESD7104MUTAG" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-ESD7104MUTAG" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/ESD7104MUTAG?qs=8nbDJddAfDXw%2Fvxmx%252Bz6Hg%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ESD7104MUTAG" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/esd7104mutag/on-semiconductor?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IO_1 1 0 0 200 R 50 50 0 0 B
+X IO_2 2 0 -100 200 R 50 50 0 0 B
+X GND_1 3 0 -200 200 R 50 50 0 0 W
+X IO_3 4 0 -300 200 R 50 50 0 0 B
+X IO_4 5 0 -400 200 R 50 50 0 0 B
+X NC_1 6 1200 -400 200 L 50 50 0 0 P
+X NC_2 7 1200 -300 200 L 50 50 0 0 P
+X GND_2 8 1200 -200 200 L 50 50 0 0 W
+X NC_3 9 1200 -100 200 L 50 50 0 0 P
+X NC_4 10 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

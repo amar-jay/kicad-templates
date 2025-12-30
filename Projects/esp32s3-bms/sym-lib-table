@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESD7104MUTAG")(type "KiCad")(uri "${KIPRJMOD}/libs/ESD7104MUTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "B2B-PH-K-S")(type "KiCad")(uri "${KIPRJMOD}/libs/B2B-PH-K-S.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24040DSQR")(type "KiCad")(uri "${KIPRJMOD}/libs/BQ24040DSQR.kicad_sym")(options "")(descr ""))
+)

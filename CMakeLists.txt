@@ -11,13 +11,28 @@ if( APPLE )
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
     set( KICAD_TEMPLATE template )
 else()
+    if( CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT )
+        set( CMAKE_INSTALL_PREFIX "/home/amarjay/kicad" CACHE PATH "Default install path" FORCE )
+    endif()
+
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
-    set( KICAD_DATA share/kicad
-        CACHE PATH "Location of KiCad data files." )
+		# Find the highest KiCad version installed
+		# set(KICAD_BASE "/usr/share/kicad")
+		# file(GLOB VERSION_DIRS LIST_DIRECTORIES true "${KICAD_BASE}/*")
+		# set(KICAD_VERSION "9.0") # default
+		# foreach(dir ${VERSION_DIRS})
+		# 	get_filename_component(ver ${dir} NAME)
+		# 	if(ver MATCHES "^[0-9]+\\.[0-9]+$" AND ver VERSION_GREATER KICAD_VERSION)
+		# 		set(KICAD_VERSION ${ver})
+		# 	endif()
+		# endforeach()
+		set( KICAD_VERSION "9.0" ) # Set default to KiCad 9.0
+		set( KICAD_DATA ${KICAD_VERSION}
+			CACHE PATH "Location of KiCad data files." )
     set( KICAD_TEMPLATE ${KICAD_DATA}/template )
 endif()
 
-mark_as_advanced( KICAD_DATA )
+# mark_as_advanced( KICAD_DATA )
 
 
 #================================================

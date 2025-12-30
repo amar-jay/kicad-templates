@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ24040DSQR
+D 1A Single-Input, Single Cell Li-Ion Battery Charger. Vovp=6.6V | Linear
+K
+F http://www.ti.com/lit/gpn/bq24040
+$ENDCMP
+#
+#End Doc Library
